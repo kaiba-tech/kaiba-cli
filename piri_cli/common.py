@@ -4,7 +4,6 @@ from returns.result import ResultE, safe
 from typing_extensions import Literal
 
 
-
 @overload
 def read_file(
     file_path: str, mode: Literal['r'],
