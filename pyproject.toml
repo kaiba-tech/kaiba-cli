@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "piri-cli"
-version = "0.1.0"
+version = "0.1.8"
 description = "Piri Json Transformer CLI"
 authors = ["Thomas Borgen <thomas@borgenit.no>"]
+
+[tool.poetry.scripts]
+piri = 'piri_cli.cli:main'
 
 [tool.poetry.dependencies]
 python = "^3.6"
