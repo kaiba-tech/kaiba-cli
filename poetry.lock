@@ -417,7 +417,7 @@ description = "More routines for operating on iterables, beyond itertools"
 name = "more-itertools"
 optional = false
 python-versions = ">=3.5"
-version = "8.4.0"
+version = "8.5.0"
 
 [[package]]
 category = "dev"
@@ -534,7 +534,7 @@ description = "Python docstring style checker"
 name = "pydocstyle"
 optional = false
 python-versions = ">=3.5"
-version = "5.1.0"
+version = "5.1.1"
 
 [package.dependencies]
 snowballstemmer = "*"
@@ -826,7 +826,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "f6b8c78f5793b182d3f49cd5c5a16f02dc115473fee6498f4d2181c71c1ce9d3"
+content-hash = "1593d526e60696f7a17fc1a7d56ecb917845977697b72cfe5b07746012b639d3"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -998,8 +998,8 @@ mccabe = [
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
 ]
 more-itertools = [
-    {file = "more-itertools-8.4.0.tar.gz", hash = "sha256:68c70cc7167bdf5c7c9d8f6954a7837089c6a36bf565383919bb595efb8a17e5"},
-    {file = "more_itertools-8.4.0-py3-none-any.whl", hash = "sha256:b78134b2063dd214000685165d81c154522c3ee0a1c0d4d113c80361c234c5a2"},
+    {file = "more-itertools-8.5.0.tar.gz", hash = "sha256:6f83822ae94818eae2612063a5101a7311e68ae8002005b5e05f03fd74a86a20"},
+    {file = "more_itertools-8.5.0-py3-none-any.whl", hash = "sha256:9b30f12df9393f0d28af9210ff8efe48d10c94f73e5daf886f10c4b0b0b4f03c"},
 ]
 mypy = [
     {file = "mypy-0.782-cp35-cp35m-macosx_10_6_x86_64.whl", hash = "sha256:2c6cde8aa3426c1682d35190b59b71f661237d74b053822ea3d748e2c9578a7c"},
@@ -1053,8 +1053,8 @@ pycountry = [
     {file = "pycountry-19.8.18.tar.gz", hash = "sha256:3c57aa40adcf293d59bebaffbe60d8c39976fba78d846a018dc0c2ec9c6cb3cb"},
 ]
 pydocstyle = [
-    {file = "pydocstyle-5.1.0-py3-none-any.whl", hash = "sha256:08374b9d4d2b7164bae50b71bb24eb0d74a56b309029d5d502264092fa7db0c3"},
-    {file = "pydocstyle-5.1.0.tar.gz", hash = "sha256:4ca3c7736d36f92bb215dd74ef84ac3d6c146edd795c7afc5154c10f1eb1f65a"},
+    {file = "pydocstyle-5.1.1-py3-none-any.whl", hash = "sha256:aca749e190a01726a4fb472dd4ef23b5c9da7b9205c0a7857c06533de13fd678"},
+    {file = "pydocstyle-5.1.1.tar.gz", hash = "sha256:19b86fa8617ed916776a11cd8bc0197e5b9856d5433b777f51a3defe13075325"},
 ]
 pyflakes = [
     {file = "pyflakes-2.2.0-py2.py3-none-any.whl", hash = "sha256:0d94e0e05a19e57a99444b6ddcf9a6eb2e5c68d3ca1e98e90707af8152c90a92"},

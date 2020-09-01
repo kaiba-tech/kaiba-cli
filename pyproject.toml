@@ -6,7 +6,7 @@ authors = ["Thomas Borgen <thomas@borgenit.no>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-piri = "^1.0"
+piri = "^1.0.2"
 returns = "^0.14.0"
 typing_extensions = "^3.7.4"
 
