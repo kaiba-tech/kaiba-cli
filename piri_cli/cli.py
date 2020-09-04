@@ -1,7 +1,7 @@
 import argparse
-import json
 import sys
 
+import simplejson
 from piri.process import Process
 from returns.curry import partial
 from returns.result import safe
@@ -54,20 +54,20 @@ def main():
     configuration = read_file(
         args.configuration, 'r',
     ).bind(
-        safe(json.loads),
+        safe(simplejson.loads),
     ).alt(on_failure).unwrap()
 
     input_data = read_file(
         args.input, 'r',
     ).bind(
-        safe(json.loads),
+        safe(simplejson.loads),
     ).alt(on_failure).unwrap()
 
     Process()(
         input_data,
         configuration,
     ).bind(
-        safe(json.dumps),
+        safe(simplejson.dumps),
     ).bind(
         partial(write_file, file_path=args.output),
     ).alt(on_failure)

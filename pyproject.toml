@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "piri-cli"
-version = "0.1.8"
+version = "0.1.9"
 description = "Piri Json Transformer CLI"
 authors = ["Thomas Borgen <thomas@borgenit.no>"]
 
@@ -12,6 +12,7 @@ python = "^3.6"
 piri = "^1.0.2"
 returns = "^0.14.0"
 typing_extensions = "^3.7.4"
+simplejson = "^3.17.2"
 
 [tool.poetry.dev-dependencies]
 # Tests
