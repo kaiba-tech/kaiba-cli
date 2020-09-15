@@ -1,0 +1,11 @@
+{
+    "key": "val1",
+    "key2": "val2",
+    "a1": "a1",
+    "a2": "a2",
+    "persons": [{"name": "john"}, {"name": "bob"}],
+    "extra": {
+        "extra1": "extra1val",
+        "extra2": "extra2val"
+    }
+}
