@@ -481,7 +481,7 @@ description = "Configurable and documentable Json transformation and mapping"
 name = "piri"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "1.1.0"
+version = "2.0.0"
 
 [package.dependencies]
 jsonschema = ">=3.2.0,<4.0.0"
@@ -832,7 +832,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "9bb30b3625e143f77cef3d133c0c777020168cb221c0eb955492e4bfd232b45b"
+content-hash = "2656a4d9ccebd0f96eb010bd4e4e8ba73a760f485d11d2cfb0a963c969ad7265"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -1040,8 +1040,8 @@ pep8-naming = [
     {file = "pep8_naming-0.9.1-py2.py3-none-any.whl", hash = "sha256:45f330db8fcfb0fba57458c77385e288e7a3be1d01e8ea4268263ef677ceea5f"},
 ]
 piri = [
-    {file = "piri-1.1.0-py3-none-any.whl", hash = "sha256:7b8c40a7c08a3d10e87d4568610bcef7f09b949c8368e64bfb7aa6e89abe2fdb"},
-    {file = "piri-1.1.0.tar.gz", hash = "sha256:3f852c0433982c2b72db8cfc1b7644340301a51181b2e73c2be6b4975b64052c"},
+    {file = "piri-2.0.0-py3-none-any.whl", hash = "sha256:1be59962e801f9b622476e674067e6d2705c5288c25d64cc47c309afd764c3da"},
+    {file = "piri-2.0.0.tar.gz", hash = "sha256:c59f75d6e4dc86c0c9cd33eae33b1b2954bcd81c58c0fb94bd1d0f773cbda4a7"},
 ]
 pluggy = [
     {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},
