@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "piri-cli"
-version = "2.0.0"
+version = "2.1.0"
 description = "Piri Json Transformer CLI"
 authors = ["Thomas Borgen <thomas@borgenit.no>"]
 

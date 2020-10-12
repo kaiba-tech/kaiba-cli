@@ -481,7 +481,7 @@ description = "Configurable and documentable Json transformation and mapping"
 name = "piri"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "2.0.0"
+version = "2.1.0"
 
 [package.dependencies]
 jsonschema = ">=3.2.0,<4.0.0"
@@ -1040,8 +1040,8 @@ pep8-naming = [
     {file = "pep8_naming-0.9.1-py2.py3-none-any.whl", hash = "sha256:45f330db8fcfb0fba57458c77385e288e7a3be1d01e8ea4268263ef677ceea5f"},
 ]
 piri = [
-    {file = "piri-2.0.0-py3-none-any.whl", hash = "sha256:1be59962e801f9b622476e674067e6d2705c5288c25d64cc47c309afd764c3da"},
-    {file = "piri-2.0.0.tar.gz", hash = "sha256:c59f75d6e4dc86c0c9cd33eae33b1b2954bcd81c58c0fb94bd1d0f773cbda4a7"},
+    {file = "piri-2.1.0-py3-none-any.whl", hash = "sha256:89e5bb7c6138a55d3244aeed58725384e6e221d731ff397c17b4102003f19cf8"},
+    {file = "piri-2.1.0.tar.gz", hash = "sha256:280460301d28df062c73d10530cf9b752e6abc5e6df43a2ebe928f92d2d331a2"},
 ]
 pluggy = [
     {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},
