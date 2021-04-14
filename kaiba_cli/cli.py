@@ -2,15 +2,15 @@ import argparse
 import sys
 
 import simplejson
-from piri.process import Process
+from kaiba.process import Process
 from returns.curry import partial
 from returns.result import safe
 
-from piri_cli.common import read_file, write_file
+from kaiba_cli.common import read_file, write_file
 
 
 def parse_args() -> argparse.Namespace:
-    """Parse piri args."""
+    """Parse kaiba args."""
     desc = 'Transforms input json with provided cfg file to output.json'
     parser = argparse.ArgumentParser(
         description=desc,
@@ -48,7 +48,7 @@ def on_failure(failure):
 
 
 def main():
-    """Run piri with given args."""
+    """Run kaiba with given args."""
     args = parse_args()
 
     configuration = read_file(
